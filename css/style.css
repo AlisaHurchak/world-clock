@@ -1,3 +1,55 @@
 body {
-  background: rgb(234, 234, 180);
+  background-color: rgb(244, 235, 246);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  background-color: white;
+  padding: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 38px;
+}
+h2 {
+  margin: 10px 0 10px;
+  font-size: 30px;
+}
+select {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.date {
+  opacity: 0.8;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed rgb(219, 212, 212);
+  padding: 20px 0;
+}
+.city:last-child {
+  border-bottom: none;
+}
+.time {
+  font-size: 36px;
+  font-weight: bold;
+}
+.time small {
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.7;
+  margin-top: 40px;
 }

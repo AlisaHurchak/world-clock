@@ -34,7 +34,6 @@ function updateTime() {
     "h:mm:ss [<small>]A[</small>]"
   );
 }
-
 function updateCity(event) {
   let cityTimezone = event.target.value;
   if (cityTimezone === "#current") {
